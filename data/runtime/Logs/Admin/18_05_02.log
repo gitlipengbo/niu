@@ -1,0 +1,216 @@
+[ 2018-05-02T00:03:19+08:00 ] 106.39.189.99 /?g=admin&upw=ee6ff5ae61b7546fed735ac40646a637
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002704s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006271s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003241s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003343s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0029s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-05-02T00:03:19+08:00 ] 106.39.189.99 /admin/public/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002085s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003620s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008600s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.004580s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.004697s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001739s ]
+
+[ 2018-05-02T00:03:30+08:00 ] 106.39.189.99 /Admin/public/dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001563s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002670s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006277s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003330s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003444s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `jz_users` WHERE `user_login` = 'biao' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2018-05-02T00:03:43+08:00 ] 106.39.189.99 /Admin/public/dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002666s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006223s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003274s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003373s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `jz_users` WHERE `user_login` = 'biao' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-05-02T11:50:24+08:00 ] 222.208.150.182 /Admin/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002764s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006303s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003218s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003323s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0028s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-05-02T11:50:24+08:00 ] 222.208.150.182 /admin/public/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002701s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006322s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003241s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001657s ]
+
+[ 2018-05-02T11:50:28+08:00 ] 222.208.150.182 /Admin/public/dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002654s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006239s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003275s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003375s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `jz_users` WHERE `user_login` = 'nle2018' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `jz_role_user` [ RunTime:0.0026s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: UPDATE `jz_users` SET `user_login`='nle2018',`user_pass`='###26c178fcdcdf5b859d2d5cb7ff282f89',`user_nicename`='',`user_email`='leo219@qq.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`=NULL,`signature`=NULL,`last_login_ip`='222.208.150.182',`last_login_time`='2018-05-02 11:50:28',`create_time`='2018-02-12 05:51:04',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '27' [ RunTime:0.0010s ]
+
+[ 2018-05-02T11:50:28+08:00 ] 222.208.150.182 /Admin/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004050s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007967s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003216s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003318s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0027s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '27' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `jz_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 0 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jz_role_user` [ RunTime:0.0026s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 109 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 110 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 111 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 113 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 115 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 139 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 149 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 188 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 189 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 190 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 232 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 225 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 226 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 227 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 40 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0005s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 41 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 42 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 221 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 222 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 223 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 228 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: Think /www/wwwroot/niulaile.qzkvd.com/data/runtime/Cache/Admin/5fbeb4d50be835b15c35a2bc40c02ee0.php 第 167 行.
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0005s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT `role_id` FROM jz_role_user a INNER JOIN jz_role as b on a.role_id =b.id  WHERE `user_id` = '27' AND `status` = 1  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001704s ]
+
+[ 2018-05-02T11:50:29+08:00 ] 222.208.150.182 /Admin/Main/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003097s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006669s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003770s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003876s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0027s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '27' LIMIT 1   [ RunTime:0.0005s ]
+SQL: select VERSION() as version [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000919s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001646s ]
+
